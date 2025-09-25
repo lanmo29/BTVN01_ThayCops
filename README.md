@@ -5,7 +5,7 @@
 
 # 2.Project Console App (.NET Framework 2.0)
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c529d472-5115-49d3-8274-84fdacdf6df5" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9942e6aa-7f96-44b6-9eb5-addbe549c62a" />
 
 # 3.Project Windows Forms App (.NET Framework 2.0)
 
