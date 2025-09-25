@@ -9,7 +9,7 @@
 
 # 3.Project Windows Forms App (.NET Framework 2.0)
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7e256535-6050-440e-a7ce-84b9270eea26" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a8dd646b-b3aa-4730-8cda-84af756af18d" />
 
 # 4.Project Web App (ASP.NET Web Application .NET Framework 2.0)
 
