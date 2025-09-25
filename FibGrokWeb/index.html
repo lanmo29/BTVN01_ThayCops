@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>FibGrok Web</title>
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        #container {
+            width: 300px;
+            margin: auto;
+        }
+
+        input, button {
+            margin: 5px;
+        }
+
+        #footer {
+            text-align: center;
+            font-size: 12px;
+            margin-top: 20px;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h2>Nhập vị trí n cho dãy Fibonacci</h2>
+        <input type="text" id="txtN" placeholder="Số nguyên không âm" />
+        <button onclick="calculate()">Tính toán</button>
+        <div id="result"></div>
+    </div>
+    <div id="footer">
+        Tên Sinh Viên Thực Hiện: Nguyễn Hùng Lân<br>
+        MSSV: K215480106030<br>
+        Bài Tập Về Nhà Môn Học: Phát triển ứng dụng trên nền web
+    </div>
+    <script>
+        function calculate() {
+            var n = document.getElementById('txtN').value;
+            if (!/^\d+$/.test(n) || parseInt(n) < 0) {
+                document.getElementById('result').innerText = 'Dữ liệu không hợp lệ! - HungLanBTVN';
+                return;
+            }
+            // Tiền xử lý: OK, gửi AJAX
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', 'api.aspx', true);
+            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    var json = JSON.parse(xhr.responseText); // Đã thay eval bằng JSON.parse cho an toàn
+                    document.getElementById('result').innerText = 'Kết quả: ' + json.result;
+                }
+            };
+            xhr.send('n=' + n);
+        }
+    </script>
+</body>
+</html>

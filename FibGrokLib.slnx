@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="FibGrokConsole/FibGrokConsole.csproj" Id="483bb52b-0f1a-4cbe-a164-a511fce3de97" />
+  <Project Path="FibGrokDesktop/FibGrokDesktop.csproj" Id="0130f0b3-1f36-4781-93ae-78a4c585f828" />
+  <Project Path="FibGrokLib/FibGrokLib.csproj" Id="8d953a91-ab13-47fb-8ace-7bfcb786041e" />
+  <Project Path="FibGrokWeb/FibGrokWeb.csproj" Id="ce721efe-a5ff-4fa6-8844-ec9c24c1b734" />
+</Solution>
