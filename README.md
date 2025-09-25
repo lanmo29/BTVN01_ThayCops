@@ -1,7 +1,7 @@
 # BTVN01_ThayCops
 # 1.Tạo Solution và Project DLL (Class Library .NET Framework 2.0)
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/06193db1-4424-46ab-93a5-436fcfdd3cce" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bbb1c63e-197d-4bc5-8650-6ed7794aefc5" />
 
 # 2.Project Console App (.NET Framework 2.0)
 
