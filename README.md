@@ -17,3 +17,6 @@
 
 Kết quả khi đã lên WED 
 browser: http://fibgrok.local/index.html.
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/37f248d6-88ac-4464-86e8-269764bdef20" />
+
