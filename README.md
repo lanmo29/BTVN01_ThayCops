@@ -20,3 +20,5 @@ browser: http://fibgrok.local/index.html.
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/37f248d6-88ac-4464-86e8-269764bdef20" />
 
+Giới thiệu về Bài toán Fibonacci trên Web
+Bài toán mà ứng dụng này giải quyết là tính toán số Fibonacci thứ n trong dãy Fibonacci nổi tiếng. Dãy Fibonacci là một chuỗi số mà mỗi số là tổng của hai số trước đó, bắt đầu từ 0 và 1 (ví dụ: 0, 1, 1, 2, 3, 5, 8, 13, ...). Người dùng nhập một số nguyên không âm n làm vị trí, và hệ thống sẽ tính toán, sau đó hiển thị kết quả kèm theo một twist độc đáo: kiểm tra tính chẵn/lẻ của số Fibonacci đó. Ứng dụng được thiết kế đa nền tảng, với DLL độc lập có thể sử dụng trong console, desktop, và web, đảm bảo tính tái sử dụng và linh hoạt.
