@@ -15,3 +15,5 @@
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9119bc6d-c5d6-4541-9527-551f7498f4bc" />
 
+Kết quả khi đã lên WED 
+browser: http://fibgrok.local/index.html.
