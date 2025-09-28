@@ -1,3 +1,5 @@
+# NGUYỄN HÙNG LÂN
+# K215480106030
 # BTVN01_ThayCops
 # 1.Tạo Solution và Project DLL (Class Library .NET Framework 2.0)
 
